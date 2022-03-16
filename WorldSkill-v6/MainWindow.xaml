@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldSkill_v6"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="WorldSkill_v6.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Orange" >
+    <Grid>
+        <Rectangle Fill="Gold" HorizontalAlignment="Left" Height="367" Margin="26,25,0,0" Stroke="AliceBlue" VerticalAlignment="Top" Width="737"/>
+        <Rectangle Fill="GreenYellow" HorizontalAlignment="Left" Height="327" Margin="46,45,0,0" Stroke="AliceBlue" VerticalAlignment="Top" Width="686"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" Margin="294,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="181"/>
+        <Label Content="Введите пароль" HorizontalAlignment="Left" Margin="332,188,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Введите логин" HorizontalAlignment="Left" Margin="332,123,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="enter" Click="enter_Click" Content="Войти" HorizontalAlignment="Left" Margin="347,269,0,0" VerticalAlignment="Top" Width="75" Background="Yellow"/>
+        <TextBox x:Name="roly" HorizontalAlignment="Left" Height="23" Margin="294,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="181"/>
+        <Label Content="Введите вашу должность" HorizontalAlignment="Left" Margin="307,68,0,0" VerticalAlignment="Top" Width="168"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="294,215,0,0" VerticalAlignment="Top" Width="181" Height="23" Cursor="None"/>
+    </Grid>
+</Window>

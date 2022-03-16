@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YT3UEbLapXSXykPP0oK4dIj+6S16AUsYTb++UCKFTB2KVjOTqi63dTNwldDXOLz1yU72a1zfWRN3U2f1siR3KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\WorldSkill-v6\\WorldSkill-v6\\WorldSkill-v6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
